@@ -1,0 +1,9 @@
+.MonthlyPrevButton {
+  margin-bottom: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+.MonthlyPrevButton svg {
+  cursor: pointer;
+}

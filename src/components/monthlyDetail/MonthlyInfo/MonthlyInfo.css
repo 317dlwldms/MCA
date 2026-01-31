@@ -1,0 +1,30 @@
+.MonthlyInfo {
+  display: flex;
+  gap: 2rem;
+}
+.MonthlyInfo img {
+  width: 430px;
+  border: 1px solid #ddd;
+}
+.MonthlyInfo .info_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.MonthlyInfo .info_wrapper h2 {
+  font-size: 1.5rem;
+}
+.MonthlyInfo .info_wrapper .info_text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.MonthlyInfo .info_wrapper .info_text > div {
+  display: flex;
+}
+.MonthlyInfo .info_wrapper .info_text > div h4 {
+  width: 100px;
+}
+.MonthlyInfo .info_wrapper .info_text > div p {
+  line-height: 1.375rem;
+}

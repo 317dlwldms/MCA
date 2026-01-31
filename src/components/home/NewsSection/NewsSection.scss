@@ -1,0 +1,12 @@
+.NewsSection{
+    .news{
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

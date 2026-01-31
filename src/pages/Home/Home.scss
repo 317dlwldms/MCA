@@ -1,0 +1,36 @@
+.article{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 0 9rem;
+    width: 100%;
+    border-top: 1px solid #222;
+    h3{
+        font-size: 2rem;
+    }
+    .contents_wrap{
+        width:72%;
+    }
+}
+.news, .exhibition{
+    column-count: 2;
+    column-gap: 3rem;
+    div{
+        break-inside: avoid;
+        margin-bottom: 3rem;
+    }
+}
+// .exhibition{
+//     display: flex;
+//     flex-direction: row;
+//     gap: 3.5rem;
+//     flex-wrap: wrap;
+//     div{
+//         width: calc(50% - 1.75rem);
+//         display: flex;
+//         flex-direction: column;
+//         gap: 0.5rem;
+//         img{
+//             width: 100%;
+//         }
+//     }
+// }

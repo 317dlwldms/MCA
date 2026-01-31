@@ -1,0 +1,28 @@
+footer {
+  text-align: left;
+  border-top: 1px solid #222;
+  padding: 1.5rem 0;
+}
+
+.footerTop {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.footerTop img {
+  width: 50px;
+}
+
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+.footerInfo div {
+  display: flex;
+  flex-direction: row;
+}
+.footerInfo div p:first-child {
+  width: 80px;
+  font-weight: 700;
+}

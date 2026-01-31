@@ -1,0 +1,22 @@
+.SpecialSection{
+    border: 0;
+}
+.special {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    div{
+        h4{
+            display: flex;
+            width: 100%;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            p{
+                width: 5rem;
+            }
+        }
+        >p{
+            margin-left: 5rem;
+        }
+    }
+}

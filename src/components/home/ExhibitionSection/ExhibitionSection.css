@@ -1,0 +1,10 @@
+.ExhibitionSection .exhibition img {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.ExhibitionSection .exhibition h4 {
+  margin-bottom: 0.5rem;
+}
+.ExhibitionSection .exhibition p {
+  font-size: 0.9375rem;
+}

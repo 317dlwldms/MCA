@@ -20,3 +20,13 @@
   break-inside: avoid;
   margin-bottom: 3rem;
 }
+
+@media (max-width: 1200px) {
+  .article {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .article .contents_wrap {
+    width: 100%;
+  }
+}

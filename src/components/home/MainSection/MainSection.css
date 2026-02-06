@@ -57,3 +57,23 @@
 .MainContent .button button p {
   font-weight: 700;
 }
+
+@media (max-width: 1200px) {
+  .MainSection {
+    height: auto;
+  }
+  .MainImg {
+    position: relative;
+    padding: 5rem 0;
+    transform: translateY(0);
+  }
+  .MainImg img {
+    width: 70%;
+    max-width: 450px;
+  }
+  .MainContent {
+    justify-content: flex-start;
+    gap: 3rem;
+    padding-bottom: 5rem;
+  }
+}

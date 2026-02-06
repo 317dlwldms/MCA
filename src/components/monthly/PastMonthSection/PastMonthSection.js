@@ -19,8 +19,8 @@ export default function PastMonthSection(){
             </div>
             <div className="magazine_wrapper">
                 {monthlyList.slice(1).map(item => (
-                    <div>
-                    <Link key={item.id} to={`/monthly/${item.id}`}>
+                    <div key={item.id}>
+                    <Link to={`/monthly/${item.id}`}>
                         <img src={item.cover} alt={item.vol} />
                         <h4>{item.vol}</h4>
                     </Link>

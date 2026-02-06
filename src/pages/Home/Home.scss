@@ -19,18 +19,13 @@
         margin-bottom: 3rem;
     }
 }
-// .exhibition{
-//     display: flex;
-//     flex-direction: row;
-//     gap: 3.5rem;
-//     flex-wrap: wrap;
-//     div{
-//         width: calc(50% - 1.75rem);
-//         display: flex;
-//         flex-direction: column;
-//         gap: 0.5rem;
-//         img{
-//             width: 100%;
-//         }
-//     }
-// }
+
+@media (max-width: 1200px){
+    .article{
+        flex-direction: column;
+        gap: 3rem;
+        .contents_wrap{
+            width: 100%;
+        }
+    }
+}
